@@ -2,6 +2,7 @@ package com.enilton.scr2.bo;
 
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +13,7 @@ import com.enilton.scr2.service.GeradoraService;
 @Scope("request")
 public class GeradoraBean {
 	
+	@Autowired
 	private Geradora geradora;
 
 	private List<Geradora> geradoras;
