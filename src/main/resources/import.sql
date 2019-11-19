@@ -1,0 +1,1 @@
+insert into GERADORA (id_geradora, nome) values (1,'Geradora 1');
